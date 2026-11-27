@@ -878,3 +878,27 @@
     margin: 8px 4px;
   }
 }
+/* BOOKING STATUS STYLES */
+
+.booking-status {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.booking-status.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.booking-status.approved {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.booking-status.rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+}
